@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -20,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 30px;
   cursor: pointer;
@@ -66,7 +70,7 @@
   width: 350px;
   height: 450px;
   border-radius: 8px;
-  position: absolute;
+  position: fixed;
   padding: 8px;
   background-color: dodgerblue;
   right: 20px;

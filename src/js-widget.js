@@ -3,7 +3,6 @@ function createWidget(body) {
   if (!head) console.error("Error!")
   else getCSS().then(data => {
     head.appendChild(data)
-    body.classList.add('overflow-x-hidden')
     body.innerHTML += createButton()
     
     const openBox = document.querySelector('#openbox')
